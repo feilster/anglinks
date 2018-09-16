@@ -128,12 +128,21 @@
 }
 
 .visited-spot {
-	color: #008000;
+	color: #008000 !important;
+}
+.visited-spot:after {
+	content: 'visited'
 }
 
 .future-spot {
-	color: #ff00ff;
+	color: #ff00ff !important;
+}
+.future-spot:after {
+	content: 'future'
 }
 
+span.future-spot, span.visited-spot {
+  font-weight: bold;	
+}
 
 ```
