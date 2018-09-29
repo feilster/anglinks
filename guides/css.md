@@ -32,8 +32,7 @@
 <a class="link-wheretostay" href="" target="_blank" rel="noopener"></a>
 </div>
 <div class="col col-md-4 bottom-links-other">
-<a href="http://nottsbrewery.co.za/" target="_blank" rel="noopener">Nottingham Road Brewery</a>
-<a href="https://www.rawdons.co.za/" target="_blank" rel="noopener">Rawdons</a>
+<a href="" target="_blank" rel="noopener">name</a>
 </div>
 </div>
 
