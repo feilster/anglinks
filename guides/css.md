@@ -38,7 +38,7 @@
 
 ```
 
-### Additional CSS
+## Additional CSS
 ```
 .bottom-links a, .bottom-links span { 	
 	margin: 0px 0px 0px 10px; 
