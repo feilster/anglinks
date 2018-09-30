@@ -1,4 +1,5 @@
 ## General
 ### Colors
->  main - **#14adb3**
+> theme - **#14adb3**
+> text - **#595959**
 
