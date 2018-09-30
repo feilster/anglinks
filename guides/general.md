@@ -1,5 +1,5 @@
 ## General
 ### Colors
-> theme - **#14adb3**
-> text - **#595959**
+theme - **#14adb3**
+text - **#595959**
 
