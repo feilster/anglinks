@@ -34,4 +34,4 @@ barbel x3 (small\medium)
 <h6>Similar nearby fishing spots</h6>
 <a href="http://www.anglinks.co.za/2018/04/the-riverhouse-vaal-river-apr-2018/" target="_blank" rel="noopener">The Riverhouse - Boskop Dam</a>
 <h6>Video</h6>
-<iframe width="560" height="315" src="https://youtu.be/hEt_hgNxYRE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hEt_hgNxYRE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
