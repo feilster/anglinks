@@ -1,4 +1,4 @@
 ## General
 ### Colors
->>  main - #14adb3
+>  main - **#14adb3**
 
