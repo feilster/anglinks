@@ -1,6 +1,5 @@
-##General
-
 ## General
+### Colors
 * use **nb** to add red color and bold to phrases, eg.
 ```
 <p class="nb"><span>2018-02-02 - Update:</span> ... </p>
