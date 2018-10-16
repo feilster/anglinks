@@ -118,6 +118,15 @@
 	margin-left: 10px; 
 }  
 
+.contact-phone:before { 	
+	content: '\f095';
+}
+.contact-email:before { 	
+	content: '\f0e0';
+}
+
+
+
 .table1, .table2 {     border-collapse: collapse; }  .table1, .table2, .table1 th, .table2 th, .table1 td, .table2 td {     border: 1px solid #ddd; }  .table1 th, .table2 th {     text-align: left; }  .table2 td {     text-align: left; }  .table1 tr:nth-child(even):hover { 	background-color: #eee; }  .table1 tr:nth-child(odd):hover { 	background-color: #eee; }  .table1 tr:nth-child(even) { 	background-color: #efefef; }   .table1 tr:nth-child(odd) {     border-bottom: 2px solid #ddd; }  .table1 td:first-child {     font-weight: bold;     background-color: #FFF; 	border-bottom: 2px solid #ddd; }  .table1 tr:nth-child(even) td:nth-child(2), .table1 tr:nth-child(even) td:nth-child(3) {     color: green; }  .table1 tr:nth-child(odd) td:nth-child(2), .table1 tr:nth-child(odd) td:nth-child(3) {     color: red; }  .table1 tr:nth-child(even) td:nth-child(2):after {     content: 'Linky'; }  .table1 tr:nth-child(odd) td:nth-child(2):after {     content: 'Martin'; }  .table1 th, .table2 th {     background-color: #189aab;     color: white; }
 
 .nb {
