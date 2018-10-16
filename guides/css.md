@@ -60,7 +60,7 @@
 	font-weight: bold;
 	white-space: pre;
 }
-.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before {
+.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .contact-phone:before, .contact-email:before {
 	  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 	margin: 0px 5px 0px 0px;
@@ -100,7 +100,6 @@
 .link-airbnb:after { 	
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/airbnb-logo-small.png'); 
 }  
-
 
 .bottom-links-other:before {
 	content: 'Other \A';
@@ -156,5 +155,6 @@
 span.future-spot, span.visited-spot {
   font-weight: bold;	
 }
+
 
 ```
