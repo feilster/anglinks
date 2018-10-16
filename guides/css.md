@@ -101,6 +101,7 @@
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/airbnb-logo-small.png'); 
 }  
 
+
 .bottom-links-other:before {
 	content: 'Other \A';
 }
