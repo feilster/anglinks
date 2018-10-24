@@ -65,7 +65,7 @@
 	font-weight: bold;
 	white-space: pre;
 }
-.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links span:before {
+.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before {
 	font-family: 'Font Awesome 5 Free';
   	font-weight: 900;
 	margin: 0px 5px 0px 0px;
