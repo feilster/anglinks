@@ -45,10 +45,11 @@
 	line-height: 1em;
 } 
 
+/* use this to indicate that no links were found */
 .bottom-links span:before { 	
 	content: '\f057';
-	  font-family: 'Font Awesome 5 Free';
-  font-weight: 400;
+	font-family: 'Font Awesome 5 Free';
+  	font-weight: 400;
 	color: red;
 	margin: 0px 5px 0px 0px;
 } 
@@ -56,6 +57,7 @@
 	content: 'nothing found';
 } 
 
+/**/
 .bottom-links-other:before, .bottom-links-bookings:before, .bottom-links-sites:before {
 	font-weight: bold;
 	white-space: pre;
