@@ -5,7 +5,10 @@
 ```
 * use **visited-spot** and **future-spot** to text to align with map colours, eg.
 ```
-<span class="future-spot">future</span>
+<span class="visited-spot"></span>
+<span class="future-spot"></span>
+<h5 class="visited-spot"></h5>
+<h5 class="future-spot"></h5>
 ```
 
 ## Bottom links
