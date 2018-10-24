@@ -8,30 +8,41 @@ lorem
 
 <h3>Summary</h3>
 lorem
-<h6>tips</h6>
+
+<div class="bottom-tips">
+<h6></h6>
 lorem
-<h6>Fish count (3 days)</h6>
-bass x25 (medium)
-barbel x3 (small\medium)
-<h6>Links</h6>
-<h6>Links</h6>
-<div class="row bottom-links">
-<div class="col col-md-4 bottom-links-sites">
-<a class="link-website" href="" target="_blank" rel="noopener"></a>
-<a class="link-facebook" href="" target="_blank" rel="noopener"></a>
 </div>
-<div class="col col-md-4 bottom-links-bookings">
-<a class="link-safarinow" href="?source=9331" target="_blank" rel="noopener"></a>
-<a class="link-booking" href="?aid=1456833" target="_blank" rel="noopener"></a>
-<a class="link-airbnb" href="" target="_blank" rel="noopener"></a>
-<a class="link-wheretostay" href="" target="_blank" rel="noopener"></a>
+
+<div class="bottom-fish-count">
+<h6>(2 days)</h6>
+bass x6 (small)
 </div>
-<div class="col col-md-4 bottom-links-other">
-<a href="" target="_blank" rel="noopener">name</a>
+
+<div class="bottom-links">
+<h6></h6>
+<div class="row">
+<div class="col col-md-4 bottom-links-sites"><span></span></div>
 </div>
-</div><h6>Map \ exact Location</h6>
-<a class="link-location" href="https://goo.gl/maps/5J4GWveQFzE2" target="_blank" rel="noopener">&nbsp;</a>
-<h6>Similar nearby fishing spots</h6>
-<a href="http://www.anglinks.co.za/2018/04/the-riverhouse-vaal-river-apr-2018/" target="_blank" rel="noopener">The Riverhouse - Boskop Dam</a>
-<h6>Video</h6>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hEt_hgNxYRE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+<div class="bottom-contact-info">
+<h6></h6>
+<span class="contact-phone"><a href="tel:number">number</a>&nbsp;(name)</span>
+<span class="contact-email"><a href="mailto:email">email</a></span>
+</div>
+
+<div class="bottom-location">
+<h6></h6>
+<a class="link-location" href="https://goo.gl/maps/code" target="_blank" rel="noopener"></a>
+</div>
+
+<div class="bottom-nearby-spots">
+<h6></h6>
+<a href="http://www.anglinks.co.za/link">place</a>
+</div>
+
+<div class="bottom-video">
+<h6></h6>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/code?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
