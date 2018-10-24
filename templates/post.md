@@ -22,7 +22,19 @@ bass x6 (small)
 <div class="bottom-links">
 <h6></h6>
 <div class="row">
-<div class="col col-md-4 bottom-links-sites"><span></span></div>
+<div class="col col-md-4 bottom-links-sites">
+<a class="link-website" href="" target="_blank" rel="noopener"></a>
+<a class="link-facebook" href="" target="_blank" rel="noopener"></a>
+</div>
+<div class="col col-md-4 bottom-links-bookings">
+<a class="link-safarinow" href="?source=9331" target="_blank" rel="noopener"></a>
+<a class="link-booking" href="?aid=1456833" target="_blank" rel="noopener"></a>
+<a class="link-airbnb" href="" target="_blank" rel="noopener"></a>
+<a class="link-wheretostay" href="" target="_blank" rel="noopener"></a>
+</div>
+<div class="col col-md-4 bottom-links-other">
+<a href="" target="_blank" rel="noopener">name</a>
+</div>
 </div>
 </div>
 
