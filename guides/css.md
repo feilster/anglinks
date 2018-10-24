@@ -24,8 +24,9 @@
 
 ### Complete example
 ```
-<h6 class="bottom-links-heading"></h6>
-<div class="row bottom-links">
+<div class="bottom-links">
+<h6></h6>
+<div class="row">
 <div class="col col-md-4 bottom-links-sites">
 <a class="link-website" href="" target="_blank" rel="noopener"></a>
 <a class="link-facebook" href="" target="_blank" rel="noopener"></a>
@@ -38,6 +39,7 @@
 </div>
 <div class="col col-md-4 bottom-links-other">
 <a href="" target="_blank" rel="noopener">name</a>
+</div>
 </div>
 </div>
 
@@ -55,6 +57,24 @@
 
 ## Additional CSS
 ```
+/* START: bottom tips */
+
+.bottom-tips h6:after {
+	content: 'Tips';
+}
+
+/* END: bottom tips */
+
+/* START: fish count */
+
+.bottom-fish-count h6:before {
+	content: 'Fish Count';
+	margin-right: 0.5em;
+}
+
+/* END: bottom fish count */
+
+
 /* START: bottom links */
 
 .bottom-links a, .bottom-links span { 	
@@ -66,7 +86,7 @@
 	white-space: pre;
 }
 .bottom-links h6:after {
-	content: 'Links'
+	content: 'Links';
 }
 .link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before {
 	font-family: 'Font Awesome 5 Free';
@@ -135,11 +155,10 @@
 
 /* END: bottom links*/
 
-
 /* START: bottom contact info*/
 
 .bottom-contact-info h6:after {
-	content: 'Contact Info'
+	content: 'Contact Info';
 }
 .contact-phone:before, .contact-email:before {
 	font-family: 'Font Awesome 5 Free';
@@ -155,30 +174,96 @@
 
 /* END: bottom contact info*/
 
+/* START: bottom location */
 
-.link-content { 	
-	font-weight: bold; 
-}  
-
+.bottom-location h6:after {
+	content: 'Map \\ Exact location';
+}
 .link-location:after { 	
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/06/gmap.png'); 	
 	margin-left: 10px; 
 }  
 
+/* END: bottom location */
+
+/* START: bottom nearby spots */
+
+.bottom-nearby-spots h6:after {
+	content: 'Similar Nearby Fishing Spots';
+}
+
+/* END: bottom nearby spots */
+
+/* START: bottom video */
+
+.bottom-video h6:after {
+	content: 'Video';
+}
+
+/* END: bottom video */
+
+/* START: pb table */
+.table1, .table2 {     
+	border-collapse: collapse; 
+}  
+.table1, .table2, .table1 th, .table2 th, .table1 td, .table2 td {     
+	border: 1px solid #ddd; 
+}  
+.table1 th, .table2 th {     
+	text-align: left; 
+}  
+.table2 td {     
+	text-align: left; 
+}  
+.table1 tr:nth-child(even):hover { 	
+	background-color: #eee; 
+}  
+.table1 tr:nth-child(odd):hover { 	
+	background-color: #eee; 
+}  
+.table1 tr:nth-child(even) { 	
+	background-color: #efefef; 
+}   
+.table1 tr:nth-child(odd) {     
+	border-bottom: 2px solid #ddd; 
+}  
+.table1 td:first-child {     
+	font-weight: bold;     
+	background-color: #FFF; 	
+	border-bottom: 2px solid #ddd; 
+}  
+.table1 tr:nth-child(even) td:nth-child(2), .table1 tr:nth-child(even) td:nth-child(3) {     
+	color: green; 
+}  
+.table1 tr:nth-child(odd) td:nth-child(2), .table1 tr:nth-child(odd) td:nth-child(3) {     
+	color: red; 
+}  
+.table1 tr:nth-child(even) td:nth-child(2):after {     
+	content: 'Linky'; 
+}  
+.table1 tr:nth-child(odd) td:nth-child(2):after {     
+	content: 'Martin'; 
+}  
+.table1 th, .table2 th {     
+	background-color: #189aab;     
+	color: white; 
+}
+/* END: pb table */
 
 
+.link-content { 	
+	font-weight: bold; 
+}  
 
-
-.table1, .table2 {     border-collapse: collapse; }  .table1, .table2, .table1 th, .table2 th, .table1 td, .table2 td {     border: 1px solid #ddd; }  .table1 th, .table2 th {     text-align: left; }  .table2 td {     text-align: left; }  .table1 tr:nth-child(even):hover { 	background-color: #eee; }  .table1 tr:nth-child(odd):hover { 	background-color: #eee; }  .table1 tr:nth-child(even) { 	background-color: #efefef; }   .table1 tr:nth-child(odd) {     border-bottom: 2px solid #ddd; }  .table1 td:first-child {     font-weight: bold;     background-color: #FFF; 	border-bottom: 2px solid #ddd; }  .table1 tr:nth-child(even) td:nth-child(2), .table1 tr:nth-child(even) td:nth-child(3) {     color: green; }  .table1 tr:nth-child(odd) td:nth-child(2), .table1 tr:nth-child(odd) td:nth-child(3) {     color: red; }  .table1 tr:nth-child(even) td:nth-child(2):after {     content: 'Linky'; }  .table1 tr:nth-child(odd) td:nth-child(2):after {     content: 'Martin'; }  .table1 th, .table2 th {     background-color: #189aab;     color: white; }
 
 .nb {
 	margin-top: 5px;	
 }
-
 .nb span {
 	font-weight: bold;
 	color: red;
 }
+
 
 .visited-spot {
 	color: #008000 !important;
@@ -186,14 +271,12 @@
 .visited-spot:after {
 	content: 'visited'
 }
-
 .future-spot {
 	color: #ff00ff !important;
 }
 .future-spot:after {
 	content: 'future'
 }
-
 span.future-spot, span.visited-spot {
   font-weight: bold;	
 }
