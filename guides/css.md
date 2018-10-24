@@ -24,7 +24,7 @@
 
 ### Complete example
 ```
-<h6>Links</h6>
+<h6 class="links-heading"></h6>
 <div class="row bottom-links">
 <div class="col col-md-4 bottom-links-sites">
 <a class="link-website" href="" target="_blank" rel="noopener"></a>
@@ -44,42 +44,44 @@
 ```
 ### If no links exist
 ```
+<h6 class="links-heading"></h6>
 <div class="row bottom-links">
-<div class="col col-md-4 bottom-links-sites"><span></span></div>
+<div class="col col-md-4 bottom-links-sites">
+<span></span>
+</div>
 </div>
 
 ```
 
 ## Additional CSS
 ```
+/* START: bottom links */
 .bottom-links a, .bottom-links span { 	
 	margin: 0px 0px 0px 10px; 
 	line-height: 1em;
 } 
+.bottom-links-other:before, .bottom-links-bookings:before, .bottom-links-sites:before {
+	font-weight: bold;
+	white-space: pre;
+}
 
 /* use this to indicate that no links were found */
 .bottom-links span:before { 	
 	content: '\f057';
-	font-family: 'Font Awesome 5 Free';
-  	font-weight: 400;
 	color: red;
-	margin: 0px 5px 0px 0px;
 } 
 .bottom-links span:after { 	
 	content: 'nothing found';
 } 
 
-/**/
-.bottom-links-other:before, .bottom-links-bookings:before, .bottom-links-sites:before {
-	font-weight: bold;
-	white-space: pre;
-}
-.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .contact-phone:before, .contact-email:before {
-	  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+/* */
+.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links span:before {
+	font-family: 'Font Awesome 5 Free';
+  	font-weight: 900;
 	margin: 0px 5px 0px 0px;
 }
 
+/* bottom link sites */
 .bottom-links-sites:before {
 	content: 'Sites & Social Media \A';
 }
@@ -103,7 +105,8 @@
 .bottom-links-bookings a:before {
 	content: '\f236';
 }
-.link-safarinow:after { 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/safarinow-logo-small.png'); 	
+.link-safarinow:after { 	
+	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/safarinow-logo-small.png'); 	
 } 
 .link-booking:after { 	
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/booking-com-logo-small.png'); 	
@@ -114,6 +117,9 @@
 .link-airbnb:after { 	
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/airbnb-logo-small.png'); 
 }  
+.link-lekkeslaap:after { 	
+	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/lekkeslaap-logo-small.png'); 
+}  
 
 .bottom-links-other:before {
 	content: 'Other \A';
@@ -121,6 +127,28 @@
 .bottom-links-other a:before {
 	content: '\f0c1';
 }
+
+/* END: bottom links*/
+
+
+/* START: bottom contact info*/
+
+.contact-phone:before, .contact-email:before {
+	font-family: 'Font Awesome 5 Free';
+  	font-weight: 900;
+	margin: 0px 5px 0px 0px;
+}
+.contact-heading:after {
+	content: 'Contact Info'
+}
+.contact-phone:before { 	
+	content: '\f095';
+}
+.contact-email:before { 	
+	content: '\f0e0';
+}
+
+/* END: bottom contact info*/
 
 
 .link-content { 	
@@ -133,17 +161,6 @@
 }  
 
 
-.bottom-extras { 	
-} 
-.contact-heading:after {
-	content: 'Contact Info'
-}
-.contact-phone:before { 	
-	content: '\f095';
-}
-.contact-email:before { 	
-	content: '\f0e0';
-}
 
 
 
