@@ -56,6 +56,7 @@
 ## Additional CSS
 ```
 /* START: bottom links */
+/* general */
 .bottom-links a, .bottom-links span { 	
 	margin: 0px 0px 0px 10px; 
 	line-height: 1em;
@@ -64,22 +65,21 @@
 	font-weight: bold;
 	white-space: pre;
 }
-
-/* use this to indicate that no links were found */
-.bottom-links span:before { 	
-	content: '\f057';
-	color: red;
-} 
-.bottom-links span:after { 	
-	content: 'nothing found';
-} 
-
-/* */
 .link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links span:before {
 	font-family: 'Font Awesome 5 Free';
   	font-weight: 900;
 	margin: 0px 5px 0px 0px;
 }
+
+/* use this to indicate that no links were found */
+.bottom-links-sites span:before { 	
+	content: '\f057';
+  	font-weight: 400;
+	color: red;
+} 
+.bottom-links-sites span:after { 	
+	content: 'nothing found';
+} 
 
 /* bottom link sites */
 .bottom-links-sites:before {
@@ -192,6 +192,5 @@
 span.future-spot, span.visited-spot {
   font-weight: bold;	
 }
-
 
 ```
