@@ -24,7 +24,7 @@
 
 ### Complete example
 ```
-<h6 class="links-heading"></h6>
+<h6 class="bottom-links-heading"></h6>
 <div class="row bottom-links">
 <div class="col col-md-4 bottom-links-sites">
 <a class="link-website" href="" target="_blank" rel="noopener"></a>
@@ -56,7 +56,7 @@
 ## Additional CSS
 ```
 /* START: bottom links */
-/* general */
+
 .bottom-links a, .bottom-links span { 	
 	margin: 0px 0px 0px 10px; 
 	line-height: 1em;
@@ -64,6 +64,9 @@
 .bottom-links-other:before, .bottom-links-bookings:before, .bottom-links-sites:before {
 	font-weight: bold;
 	white-space: pre;
+}
+.bottom-links h6:after {
+	content: 'Links'
 }
 .link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before {
 	font-family: 'Font Awesome 5 Free';
@@ -81,7 +84,7 @@
 	content: 'nothing found';
 } 
 
-/* bottom link sites */
+/* bottom links sites */
 .bottom-links-sites:before {
 	content: 'Sites & Social Media \A';
 }
@@ -99,6 +102,7 @@
 	content: 'Facebook';
 }
 
+/* bottom links bookings */
 .bottom-links-bookings:before {
 	content: 'Book with \A';
 }
@@ -121,6 +125,7 @@
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/lekkeslaap-logo-small.png'); 
 }  
 
+/* bottom links other */
 .bottom-links-other:before {
 	content: 'Other \A';
 }
@@ -133,13 +138,13 @@
 
 /* START: bottom contact info*/
 
+.bottom-contact-info h6:after {
+	content: 'Contact Info'
+}
 .contact-phone:before, .contact-email:before {
 	font-family: 'Font Awesome 5 Free';
   	font-weight: 900;
 	margin: 0px 5px 0px 0px;
-}
-.contact-heading:after {
-	content: 'Contact Info'
 }
 .contact-phone:before { 	
 	content: '\f095';
@@ -192,5 +197,4 @@
 span.future-spot, span.visited-spot {
   font-weight: bold;	
 }
-
 ```
