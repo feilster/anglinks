@@ -42,6 +42,13 @@
 </div>
 
 ```
+### If no links exist
+```
+<div class="row bottom-links">
+<div class="col col-md-4 bottom-links-sites"><span></span></div>
+</div>
+
+```
 
 ## Additional CSS
 ```
