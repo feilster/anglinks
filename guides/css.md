@@ -118,6 +118,12 @@
 	margin-left: 10px; 
 }  
 
+
+.bottom-extras { 	
+} 
+.contact-heading:after {
+	content: 'Contact Info'
+}
 .contact-phone:before { 	
 	content: '\f095';
 }
