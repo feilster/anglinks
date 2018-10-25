@@ -65,7 +65,7 @@
 
 /* END: bottom tips */
 
-/* START: fish count */
+/* START: bottom fish count */
 
 .bottom-fish-count h6:before {
 	content: 'Fish Count';
@@ -73,7 +73,6 @@
 }
 
 /* END: bottom fish count */
-
 
 /* START: bottom links */
 
@@ -167,9 +166,11 @@
 }
 .contact-phone:before { 	
 	content: '\f095';
+	margin-left: 5px; 
 }
 .contact-email:before { 	
 	content: '\f0e0';
+	margin-left: 5px; 
 }
 
 /* END: bottom contact info*/
@@ -181,7 +182,7 @@
 }
 .link-location:after { 	
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/06/gmap.png'); 	
-	margin-left: 10px; 
+	margin-left: 5px; 
 }  
 
 /* END: bottom location */
@@ -191,6 +192,12 @@
 .bottom-nearby-spots h6:after {
 	content: 'Similar Nearby Fishing Spots';
 }
+.bottom-nearby-spots a:before {
+	font-family: 'Font Awesome 5 Free';
+	content: '\f0c1';
+  	font-weight: 900;
+	margin: 0px 5px 0px 10px;
+}
 
 /* END: bottom nearby spots */
 
@@ -198,6 +205,9 @@
 
 .bottom-video h6:after {
 	content: 'Video';
+}
+.bottom-video iframe {
+	margin: 5px 0px 0px 10px; 
 }
 
 /* END: bottom video */
