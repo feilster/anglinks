@@ -141,7 +141,7 @@
 	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/airbnb-logo-small.png'); 
 }  
 .link-lekkeslaap:after { 	
-	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/07/lekkeslaap-logo-small.png'); 
+	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/12/lekkeslaap-logo-small.png'); 
 }  
 
 /* bottom links other */
@@ -264,6 +264,17 @@
 .link-content { 	
 	font-weight: bold; 
 }  
+
+.mt-1 {
+	margin-top: 1em;
+}
+.mt-2 {
+	margin-top: 2em;
+}
+.mt-5 {
+	margin-top: 5em;
+}
+
 
 
 .nb {
