@@ -31,6 +31,7 @@ bass x6 (small)
 <a class="link-booking" href="?aid=1456833" target="_blank" rel="noopener"></a>
 <a class="link-airbnb" href="" target="_blank" rel="noopener"></a>
 <a class="link-wheretostay" href="" target="_blank" rel="noopener"></a>
+<a class="link-lekkeslaap" href="" target="_blank" rel="noopener"></a>
 </div>
 <div class="col col-md-4 bottom-links-other">
 <a href="" target="_blank" rel="noopener">name</a>
