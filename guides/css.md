@@ -175,18 +175,6 @@
 
 /* END: bottom contact info*/
 
-/* START: bottom location */
-
-.bottom-location h6:after {
-	content: 'Map \\ Exact location';
-}
-.link-location:after { 	
-	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/06/gmap.png'); 	
-	margin-left: 5px; 
-}  
-
-/* END: bottom location */
-
 /* START: bottom nearby spots */
 
 .bottom-nearby-spots h6:after {
@@ -196,10 +184,25 @@
 	font-family: 'Font Awesome 5 Free';
 	content: '\f0c1';
   	font-weight: 900;
-	margin: 0px 5px 0px 10px;
+	margin: 0px 5px 0px 0px;
 }
 
 /* END: bottom nearby spots */
+
+/* START: bottom location */
+
+.bottom-location h6:after {
+	content: 'Map \\ Exact location';
+}
+.bottom-location iframe { 	
+	margin-left: 10px; 
+}  
+.link-location:after { 	
+	content: url('http://www.anglinks.co.za/wp/wp-content/uploads/2018/06/gmap.png'); 	
+	margin-left: 5px; 
+}  
+
+/* END: bottom location */
 
 /* START: bottom video */
 
