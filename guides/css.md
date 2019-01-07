@@ -175,20 +175,6 @@
 
 /* END: bottom contact info*/
 
-/* START: bottom nearby spots */
-
-.bottom-nearby-spots h6:after {
-	content: 'Similar Nearby Fishing Spots';
-}
-.bottom-nearby-spots a:before {
-	font-family: 'Font Awesome 5 Free';
-	content: '\f0c1';
-  	font-weight: 900;
-	margin: 0px 5px 0px 0px;
-}
-
-/* END: bottom nearby spots */
-
 /* START: bottom location */
 
 .bottom-location h6:after {
@@ -203,6 +189,20 @@
 }  
 
 /* END: bottom location */
+
+/* START: bottom nearby spots */
+
+.bottom-nearby-spots h6:after {
+	content: 'Similar Nearby Fishing Spots';
+}
+.bottom-nearby-spots a:before {
+	font-family: 'Font Awesome 5 Free';
+	content: '\f0c1';
+  	font-weight: 900;
+	margin: 0px 5px 0px 10px;
+}
+
+/* END: bottom nearby spots */
 
 /* START: bottom video */
 
