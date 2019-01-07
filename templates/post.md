@@ -45,14 +45,14 @@ bass x6 (small)
 <span class="contact-email"><a href="mailto:email">email</a></span>
 </div>
 
-<div class="bottom-location">
-<h6></h6>
-<a class="link-location" href="https://goo.gl/maps/code" target="_blank" rel="noopener"></a>
-</div>
-
 <div class="bottom-nearby-spots">
 <h6></h6>
-<a href="http://www.anglinks.co.za/link">place</a>
+<a href="http://www.anglinks.co.za/<link>">place</a>
+</div>
+
+<div class="bottom-location">
+<h6></h6>
+<iframe src="https://www.google.com/maps/embed?<code>" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <div class="bottom-video">
