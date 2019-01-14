@@ -301,7 +301,13 @@
 .future-spot:after {
 	content: 'future'
 }
-span.future-spot, span.visited-spot {
+.other-spot {
+	color: #ff00ff !important;
+}
+.other-spot:after {
+	content: 'other'
+}
+span.future-spot, span.visited-spot, span.other-spot {
   font-weight: bold;	
 }
 ```
