@@ -302,7 +302,7 @@
 	content: 'future'
 }
 .other-spot {
-	color: #ff00ff !important;
+	color: #777 !important;
 }
 .other-spot:after {
 	content: 'other'
