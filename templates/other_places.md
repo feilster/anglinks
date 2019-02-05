@@ -39,5 +39,5 @@ lorem
 <iframe src="https://www.google.com/maps/embed?<code>" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-<h3>Useful Info</h3>
+<h3>Gallery</h3>
 lorem
