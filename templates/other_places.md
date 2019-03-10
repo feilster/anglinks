@@ -1,4 +1,4 @@
-<h3>Useful Info</h3>
+<h5>Useful Info</h5>
 lorem
 
 <div class="bottom-tips">
