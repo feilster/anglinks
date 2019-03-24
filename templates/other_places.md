@@ -1,6 +1,7 @@
-// same as title below?
+// some write-up, same as title below?
 
-<h5>Useful Info</h5>
+<div class="useful-info">
+<h6></h6>
 <ul>
  	<li>lorem</li>
 </ul>
