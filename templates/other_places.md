@@ -3,7 +3,10 @@ lorem
 
 <div class="bottom-tips">
 <h6></h6>
-lorem
+<ul>
+ 	<li>lorem</li>
+</ul>
+
 </div>
 
 <div class="bottom-links">
