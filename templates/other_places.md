@@ -43,7 +43,7 @@ lorem
 </div>
 
 <h5>Gallery</h5>
-lorem
+coming soon...
 
 ## title
 Heartsease – Vaal Dam
