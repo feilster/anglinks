@@ -41,3 +41,9 @@ lorem
 
 <h5>Gallery</h5>
 lorem
+
+## title
+Heartsease – Vaal Dam
+
+## desc
+Heartsease is a Vaal Dam fishing spot in the northwestern part of the dam. Many carp fishing competitions have been held there and it's also renowned for it's population of barbel, mudfish and yellowfish.
