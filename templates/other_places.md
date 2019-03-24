@@ -28,7 +28,7 @@ lorem
 
 <div class="bottom-contact-info">
 <h6></h6>
-<span class="contact-phone"><a href="tel:number">number</a>&nbsp;(name)</span>
+<span class="contact-phone"><a href="tel:number">number</a>&nbsp;(name)&nbsp;(unconfirmed)</span>
 <span class="contact-email"><a href="mailto:email">email</a></span>
 </div>
 
