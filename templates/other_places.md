@@ -1,5 +1,5 @@
 <h5>Useful Info</h5>
-lorem
+// smae as title below?
 
 <div class="bottom-tips">
 <h6></h6>
