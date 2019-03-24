@@ -5,13 +5,13 @@
 <ul>
  	<li>lorem</li>
 </ul>
+</div>
 
 <div class="bottom-tips">
 <h6></h6>
 <ul>
  	<li>lorem</li>
 </ul>
-
 </div>
 
 <div class="bottom-links">
