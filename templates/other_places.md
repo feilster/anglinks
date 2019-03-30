@@ -14,6 +14,24 @@
 </ul>
 </div>
 
+<div class="rates">
+<h6></h6>
+<table>
+<tbody>
+<tr>
+<th></th>
+<th>Day Visitors</th>
+<th>Overnight</th>
+</tr>
+<tr>
+<td>Adults</td>
+<td>R50</td>
+<td>R70</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 <div class="bottom-links">
 <h6></h6>
 <div class="row">
