@@ -3,6 +3,7 @@
 <div class="useful-info">
 <h6></h6>
 <ul>
+ 	<li>start with accommodation options</li>
  	<li>lorem</li>
 </ul>
 </div>
@@ -67,6 +68,16 @@
 
 <h5>Gallery</h5>
 coming soon...
+
+<div class="add-banner pt-5">
+  <div class="col-8 mx-auto jumbotron p-1 text-center">
+    <i class="fas fa-info-circle pt-3"></i>
+    <h5 class="pt-0 mt-0"></h5>
+    <div class="inner-banner jumbotron py-1 mb-0 text-center">Do you have any <strong>further information, photos</strong> or <strong>anything useful</strong> to add about this fishing spot?<br><br>Please send it to us by either <strong>commenting below</strong> or simply <strong>mailing us</strong> at <strong><a href="mailto:anglinks777@gmail.com">anglinks777@gmail.com</a></strong>.
+    <br><br>It's all <strong>free of charge</strong> of course, we are just trying to make this page as useful as possible to the benefit of all anglers.
+  </div>
+</div>
+
 
 ## title
 Heartsease – Vaal Dam
