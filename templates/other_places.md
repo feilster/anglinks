@@ -63,7 +63,7 @@
 
 <div class="bottom-location">
 <h6></h6>
-<iframe src="https://www.google.com/maps/embed?<code>" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?<code>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <h5>Gallery</h5>
