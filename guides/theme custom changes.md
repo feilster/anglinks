@@ -35,7 +35,7 @@ h6 {
     	display: none;
 	}
 }
-
+```
 
 ## Additional CSS (Appearance)
 ```
