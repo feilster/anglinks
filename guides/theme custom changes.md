@@ -1,5 +1,43 @@
+## Additional CSS (style.css)
+```
+/* additional styles */
 
-## Additional CSS
+h6 {
+	margin: 20px 0px 0px 0px;	
+}
+
+@media only screen and (max-width: 1300px) {
+	#access a {
+    	padding: 0 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	#site-title {
+    	display: none;
+	}
+}
+
+@media (max-width: 930px) {
+	.cryout #nav-toggle {
+		display: block;
+	}
+	#access {
+		display: none;
+	}
+	#site-title {
+    	display: inline;
+	}
+}
+
+@media (max-width: 400px) {
+	#site-title {
+    	display: none;
+	}
+}
+
+
+## Additional CSS (Appearance)
 ```
 /* START: useful info */
 .useful-info h6:after {
