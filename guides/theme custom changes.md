@@ -1,4 +1,4 @@
-```
+
 ## functions.php
 ```
 function override_mce_options($initArray) {
