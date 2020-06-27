@@ -31,7 +31,34 @@ add_filter('tiny_mce_before_init', 'override_mce_options');
 ```
 ## Additional CSS (style.css)
 ```
-/* additional styles */
+/* Full width button on the homepage */
+.full-btn.elementor-widget-button .elementor-button { width: 100%; }
+
+/* Newsletter form button */
+.oew-newsletter-form-wrap .button { padding: 0 20px; }
+
+/* Footer */
+body #footer-widgets { text-align: center; }
+body #footer-widgets .ocean-newsletter-form { margin: 0 0 26px; }
+body #footer-widgets .ocean-newsletter-form-wrap input[type="email"] { color: #7c7c7c; border-width: 2px; border-color: rgba(255,255,255,0.2); font-size: 15px; letter-spacing: 0.8px; }
+body #footer-widgets .ocean-newsletter-form-wrap input[type="email"]:hover { border-color: rgba(255,255,255,0.5); }
+body #footer-widgets .ocean-newsletter-form-wrap input[type="email"]:focus { border-color: rgba(255,255,255,0.6); }
+body #footer-widgets .ocean-newsletter-form-wrap button:hover { background-color: #5c7c19; }
+body #footer-widgets .social-widget li a { color: #4a4a4a; font-size: 20px; line-height: 1; padding: 0.5em; }
+body #footer-widgets .social-widget li a:hover { color: #8cba29; }
+
+/* Scroll top button */
+#scroll-top { right: 30px; bottom: 0; width: 48px; height: 35px; line-height: 35px; font-size: 22px; border-radius: 4px 4px 0 0; }
+
+/* Footer newsletter form on responsive */
+@media only screen and (max-width: 320px) {
+    #scroll-top { display: none !important; }
+}
+
+
+/*------------------------------------*
+	Additional styles
+*------------------------------------*/
 
 h6 {
 	margin: 20px 0px 0px 0px;	
@@ -66,10 +93,8 @@ h6 {
     	display: none;
 	}
 }
-```
 
-## Additional CSS (Appearance)
-```
+/* Additional CSS (Appearance) */
 /* START: useful info */
 .useful-info h6:after {
 	content: 'Useful Info';
@@ -314,3 +339,18 @@ a.unpaged-spot:hover {color: #44505B !important;}
 	content: 'Have anything to add?';
 }
 /* END: add banner */
+
+/* extra styling to get ocean wp menu to work with bootstrap*/
+#site-navigation-wrap .dropdown-menu {
+    position: relative;
+    top: auto;
+    display: block;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*------------------------------------*
+	END: Additional styles
+*------------------------------------*/
+
