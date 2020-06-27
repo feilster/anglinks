@@ -1,5 +1,4 @@
 ## Social media
 
 ### Youtube
-Channel link
-https://www.youtube.com/channel/UCLEKDn-1zYfzPPUkSMkpMFw
+Channel link - https://www.youtube.com/channel/UCLEKDn-1zYfzPPUkSMkpMFw
