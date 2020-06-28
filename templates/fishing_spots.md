@@ -19,7 +19,7 @@
 </div>
 <div class="col-6">
 <h5 class="private-spot"></h5>
-<p>Borneo Dam</p>
+<p><br></p>
 </div>
 </div>
 </div>
