@@ -1,3 +1,4 @@
+<p><iframe width="640" height="480" src="https://www.google.com/maps/d/u/0/embed?..."></iframe></p>
 <p><br>Here's a map of all fishing spots we've discovered in <strong>KwaZulu-Natal</strong>.</p>
 <div class="container-fluid">
 <div class="row">
