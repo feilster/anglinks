@@ -15,7 +15,7 @@
 <p><br></p>
 </div>
 <div class="col-6">
-<h5 class="day-trip-only"></h5>
+<h5 class="day-trips-only"></h5>
 <p><br></p>
 </div>
 <div class="col-6">
