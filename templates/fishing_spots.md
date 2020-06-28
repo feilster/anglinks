@@ -15,11 +15,19 @@
 <p><br></p>
 </div>
 <div class="col-6">
+<h5 class="day-trip-only"></h5>
+<p><br></p>
+</div>
+<div class="col-6">
 <h5 class="body-of-water"><span></span></h5>
 <p><br></p>
 </div>
 <div class="col-6">
 <h5 class="private-spot"></h5>
+<p><br></p>
+</div>
+<div class="col-6">
+<h5 class="closed-spot"></h5>
 <p><br></p>
 </div>
 </div>
