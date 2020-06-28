@@ -6,7 +6,7 @@ lorem
 <h5>Accommodation</h5>
 lorem
 
-<h3>Summary</h3>
+<h5>Summary</h5>
 lorem
 
 <div class="bottom-tips">
