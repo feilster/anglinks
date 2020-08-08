@@ -56,6 +56,7 @@
 ```
 
 ## Additional CSS
+```
 /* Full width button on the homepage */
 .full-btn.elementor-widget-button .elementor-button { width: 100%; }
 
@@ -411,4 +412,4 @@ a.unpaged-spot:hover {color: #44505B !important;}
 /*------------------------------------*
 	END: Additional styles
 *------------------------------------*/
-
+```
