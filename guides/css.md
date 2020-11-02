@@ -352,7 +352,8 @@ h6 {
 .day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
-span.chalets-only, span.chalets-camping, span.camping-only, span.day-trips-only, span.closed-spot, span.private-spot, span.body-of-water, a.visited-spot {
+.dam-info:after {content: 'Additional Info';color: #AAA !important;}
+span.chalets-only, span.chalets-camping, span.camping-only, span.day-trips-only, span.closed-spot, span.private-spot, span.body-of-water, span.dam-info, a.visited-spot {
   font-weight: bold;	
 }
 a.unpaged-spot {color: #777 !important;}
