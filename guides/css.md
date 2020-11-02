@@ -321,22 +321,18 @@ h6 {
 	color: white; 
 }
 /* END: pb table */
-.link-content { 	
-	font-weight: bold; 
-}  
-.mt-1 {
-	margin-top: 1em;
-}
-.mt-2 {
-	margin-top: 2em;
-}
-.mt-5 {
-	margin-top: 5em;
-}
+.link-content {font-weight: bold;}  
+.mt-1 {margin-top: 1em;}
+.mt-2 {margin-top: 2em;}
+.mt-5 {margin-top: 5em;}
 .nb {margin-top: 5px;}
 .nb span {font-weight: bold;
 	color: red;}
-/* START: spots headers */
+
+/* START: spots */
+.spots {padding: 0px;}
+.spots h5 {margin-bottom: 0.1rem;}
+.spots ul {margin-top: 0.1rem;}
 .chalets-only {color: #008000 !important;}
 .chalets-only:after {content: 'Chalets \\ Houses Only';}
 .chalets-camping {color: #ff00ff !important;}
@@ -353,9 +349,6 @@ h6 {
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
 .dam-info:after {content: 'Additional Info';color: #AAA !important;}
-span.chalets-only, span.chalets-camping, span.camping-only, span.day-trips-only, span.closed-spot, span.private-spot, span.body-of-water, span.dam-info, a.visited-spot {
-  font-weight: bold;	
-}
 a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
 span.dam-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered at ';}
