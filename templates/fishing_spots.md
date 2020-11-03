@@ -62,7 +62,7 @@
 
 <div class="row">
   
-<div class="col-6">
+<div class="col-12">
 <h5 class="dam-info"></h5>
 <ul>
 <li>Impounds: Mooi River (south)</li>
