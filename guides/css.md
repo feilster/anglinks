@@ -343,7 +343,7 @@ h6 {
 .body-of-water:before {content: 'Dams \\ Rivers \\ Lakes';}
 .body-of-water span:after {display:block;font-size: 12px; color: #777; font-weight: normal;content: '(click to see fishing spots or more info)'; text-transform: lowercase;}
 .private-spot {color: #777 !important;}
-.private-spot:after {content: 'Private \\ Clubs Only';}
+.private-spot:after {content: 'Private \\ Clubs \\ Other';}
 .day-trips-only {color: #c2185c !important;}
 .day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
@@ -369,7 +369,8 @@ span.dam-blurb-top:after {content:' including some additional info.';}
 }
 .add-banner .jumbotron h5 {
 	font-size: 2em;
-	color: white;
+	color: white !important;
+	margin: 1rem;
 }
 .add-banner .jumbotron h5:after {
 	content: 'Have anything to add?';
