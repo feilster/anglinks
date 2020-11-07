@@ -348,7 +348,7 @@ h6 {
 .day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
-.dam-info:after {content: 'Additional Info';color: #AAA !important;}
+.dam-info:after {content: 'Additional Info'; color: DarkTurquoise !important;}
 a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
 span.dam-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered at ';}
