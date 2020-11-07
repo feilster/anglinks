@@ -55,7 +55,9 @@
 
 <div class="col-6">
 <h5 class="closed-spot"></h5>
-<p><br></p>
+<ul>
+<li></li>
+</ul>
 </div>
 
 </div>
