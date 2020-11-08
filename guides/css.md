@@ -353,6 +353,8 @@ a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
 span.dam-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered at ';}
 span.dam-blurb-top:after {content:' including some additional info.';}
+span.prov-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered in ';}
+span.prov-blurb-top:after {content:' including some additional info.';}
 /* END: spots headers */
 
 /* START: add banner */
