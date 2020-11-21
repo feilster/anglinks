@@ -9,3 +9,5 @@ Use Map Puzzle to generate hi-res map:
 * Width - 4000 
 * Height - 2560
 4. and Download
+
+![Kiku](images/Kiku.jpg)
