@@ -10,4 +10,4 @@ Use Map Puzzle to generate hi-res map:
 * Height - 2560
 4. and Download
 
-![Kiku](map puzzle example.JPG)
+![Kiku](mappuzzleexample.JPG)
