@@ -68,6 +68,7 @@
 
 <div class="gallery">
 <h6></h6>
+[rl_gallery id="33816"]
 coming soon...
 
 <div class="add-banner pt-5">
