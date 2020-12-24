@@ -66,7 +66,8 @@
 <iframe src="https://www.google.com/maps/embed?<code>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-<h5>Gallery</h5>
+<div class="gallery">
+<h6></h6>
 coming soon...
 
 <div class="add-banner pt-5">
