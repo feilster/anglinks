@@ -63,14 +63,16 @@
 </div>
 
 <div class="row">
-  
 <div class="col-12">
 <h5 class="dam-info"></h5>
 <ul>
 <li>Impounds: Mooi River (south)</li>
 </ul>
 </div>
-
+<div class="col-12">
+<h5 class="gallery"></h5>
+[rl_gallery id="33801"]
+</div>
 </div>
 
 <div class="add-banner pt-5 mt-3">
