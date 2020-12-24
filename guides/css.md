@@ -157,7 +157,7 @@ h6 {
 .bottom-links h6:after {
 	content: 'Links';
 }
-.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before {
+.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before, .gallery div:before {
 	font-family: 'Font Awesome 5 Free';
   	font-weight: 900;
 	margin: 0px 5px 0px 0px;
@@ -259,13 +259,13 @@ h6 {
 }
 /* END: bottom nearby spots */
 /* START: bottom video */
-.bottom-video h6:after {
-	content: 'Video';
-}
-.bottom-video iframe {
-	margin: 5px 0px 0px 10px; 
-}
+.bottom-video h6:after {content: 'Video';}
+.bottom-video iframe {margin: 5px 0px 0px 10px;}
 /* END: bottom video */
+/* START: bottom gallery */
+.gallery h6:after {content: 'Gallery';}
+.gallery div:first-child {margin: 5px 0px 0px 10px;} 
+/* END: bottom gallery */
 /* START: pb table */
 .table1, .table2 {     
 	border-collapse: collapse; 
@@ -339,7 +339,7 @@ h6 {
 .day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
-.dam-info:after {content: 'Additional Info'; color: DarkTurquoise !important;}.
+.dam-info:after {content: 'Additional Info'; color: DarkTurquoise !important;}
 .spots .gallery:after {content: 'Gallery'; color: Teal !important;}
 a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
