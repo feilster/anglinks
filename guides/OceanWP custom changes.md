@@ -1,39 +1,14 @@
 ## header.php
 ```
-		<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script> (adsbygoogle = window.adsbygoogle || []).push({
-google_ad_client: "ca-pub-9277863357488776",
-enable_page_level_ads: true
-});
-</script>
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 ```
 ## functions.php
 ```
-function override_mce_options($initArray) {
-	$opts = '*[*]';
-	$initArray['valid_elements'] = $opts;
-	$initArray['extended_valid_elements'] = $opts;
-	return $initArray;
-}
-add_filter('tiny_mce_before_init', 'override_mce_options');
+
 
 ```
 ## Additional CSS (style.css)
-```
 /* Full width button on the homepage */
 .full-btn.elementor-widget-button .elementor-button { width: 100%; }
 
@@ -62,10 +37,37 @@ body #footer-widgets .social-widget li a:hover { color: #8cba29; }
 /*------------------------------------*
 	Additional styles
 *------------------------------------*/
-
-h6 {
-	margin: 20px 0px 0px 0px;	
+a {
+	text-decoration: none !important;
 }
+
+a:hover {
+	text-decoration: underline dotted darkgray !important;
+}
+
+ol, ul {margin-top: 0.1rem;}
+
+/* START: headings*/
+h2, h5, h6 {
+	color: #444 !important;
+}
+h5 {
+	margin: 20px 0px 5px 0px;	
+	font-size: 22px;
+}
+h6 {
+	margin: 20px 0px 5px 0px;	
+	font-size: 19px;
+}
+h5.gallery:after  {content: 'Gallery'; color: Teal !important;}
+h5.video:after  {content: 'Video'; color: Teal !important;}
+/* END: headings*/
+
+/* START: bootstrap overrides*/
+.row>* {
+	padding: 0px !important;
+}
+/* END: bootstrap overrides*/
 
 @media only screen and (max-width: 1300px) {
 	#access a {
@@ -118,6 +120,9 @@ h6 {
 	content: 'Fish Count';
 	margin-right: 0.5em;
 }
+.bottom-fish-count p {
+	margin-left: 10px;
+}
 /* END: bottom fish count */
 /* START: bottom links */
 .bottom-links a, .bottom-links span { 	
@@ -131,7 +136,7 @@ h6 {
 .bottom-links h6:after {
 	content: 'Links';
 }
-.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before {
+.link-website:before, .link-facebook:before, .bottom-links-bookings a:before, .bottom-links-other a:before, .bottom-links-sites span:before, .gallery div:before {
 	font-family: 'Font Awesome 5 Free';
   	font-weight: 900;
 	margin: 0px 5px 0px 0px;
@@ -191,24 +196,22 @@ h6 {
 	content: '\f0c1';
 }
 /* END: bottom links*/
+
 /* START: bottom contact info*/
 .bottom-contact-info h6:after {
 	content: 'Contact Info';
 }
-.contact-phone:before, .contact-email:before {
-	font-family: 'Font Awesome 5 Free';
-  	font-weight: 900;
-	margin: 0px 5px 0px 0px;
-}
-.contact-phone:before { 	
-	content: '\f095';
-	margin-left: 5px; 
-}
-.contact-email:before { 	
-	content: '\f0e0';
-	margin-left: 5px; 
-}
+.contact-phone:before, .contact-email:before, .contact-fb:before, .contact-instagram:before, .contact-youtube:before {font-weight: 900;
+	margin: 0px 5px 0px 10px;}
+.contact-fb:before, .contact-instagram:before, .contact-youtube:before {font-family: 'Font Awesome 5 Brands';}
+.contact-phone:before, .contact-email:before {font-family: 'Font Awesome 5 Free';}
+.contact-phone:before {content: '\f095';}
+.contact-email:before {content: '\f0e0';}
+.contact-fb:before {content: '\f09a';}
+.contact-instagram:before {content: '\f16d';}
+.contact-youtube:before {content: '\f167';}
 /* END: bottom contact info*/
+
 /* START: bottom location */
 .bottom-location h6:after {
 	content: 'Map \\ Exact location';
@@ -233,13 +236,13 @@ h6 {
 }
 /* END: bottom nearby spots */
 /* START: bottom video */
-.bottom-video h6:after {
-	content: 'Video';
-}
-.bottom-video iframe {
-	margin: 5px 0px 0px 10px; 
-}
+.bottom-video h6:after {content: 'Video';}
+.bottom-video iframe {margin: 5px 0px 0px 10px;}
 /* END: bottom video */
+/* START: bottom gallery */
+.gallery h6:after {content: 'Gallery';}
+.gallery div:first-child {margin: 5px 0px 0px 10px;} 
+/* END: bottom gallery */
 /* START: pb table */
 .table1, .table2 {     
 	border-collapse: collapse; 
@@ -286,40 +289,43 @@ h6 {
 	color: white; 
 }
 /* END: pb table */
-.link-content { 	
-	font-weight: bold; 
-}  
-.mt-1 {
-	margin-top: 1em;
-}
-.mt-2 {
-	margin-top: 2em;
-}
-.mt-5 {
-	margin-top: 5em;
-}
+.link-content {font-weight: bold;}  
+.mt-1 {margin-top: 1em;}
+.mt-2 {margin-top: 2em;}
+.mt-5 {margin-top: 5em;}
 .nb {margin-top: 5px;}
 .nb span {font-weight: bold;
 	color: red;}
-/* START: spots headers */
+
+/* START: spots */
 .chalets-only {color: #008000 !important;}
 .chalets-only:after {content: 'Chalets \\ Houses Only';}
+.accommodation {color: #008000 !important;}
 .chalets-camping {color: #ff00ff !important;}
 .chalets-camping:after {content: 'Chalets & Camping';}
 .camping-only {color: rgb(2,136,209) !important;}
 .camping-only:after {content: 'Camping Only';}
 .body-of-water {color: #e65100 !important;}
 .body-of-water:before {content: 'Dams \\ Rivers \\ Lakes';}
-.body-of-water span:after {display:block; content: '(click to see fishing spots)'; font-size: 0.8rem; color: #333; font-weight: normal;content: '(click to see fishing spots)'; text-transform: lowercase;}
+.body-of-water span:after {display:block;font-size: 12px; color: #777; font-weight: normal;content: '(click to see fishing spots or more info)'; text-transform: lowercase;}
 .private-spot {color: #777 !important;}
-.private-spot:after {content: 'Private \\ Clubs Only';}
+.private-spot:after {content: 'Private \\ Clubs \\ Other';}
+.day-trips-only {color: #c2185c !important;}
+.day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
-span.chalets-only, span.chalets-camping, span.camping-only, span.closed-spot, span.private-spot, span.body-of-water, a.visited-spot {
-  font-weight: bold;	
-}
+.dam-info:after {content: 'Interesting Facts'; color: DarkTurquoise !important;}
 a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
+div.dam-blurb-top, div.prov-blurb-top {margin-bottom: 10px;}
+div.dam-blurb-top:before {content:'Here’s a map of all the fishing spots and accommodation we’ve discovered at ';}
+div.dam-blurb-top:after {content:' including some additional info.';}
+div.prov-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered in ';}
+div.prov-blurb-top:after {content:' including some additional info.';}
+span.dam-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered at ';}
+span.dam-blurb-top:after {content:' including some additional info.';}
+span.prov-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered in ';}
+span.prov-blurb-top:after {content:' including some additional info.';}
 /* END: spots headers */
 
 /* START: add banner */
@@ -336,7 +342,8 @@ a.unpaged-spot:hover {color: #44505B !important;}
 }
 .add-banner .jumbotron h5 {
 	font-size: 2em;
-	color: white;
+	color: white !important;
+	margin: 1rem;
 }
 .add-banner .jumbotron h5:after {
 	content: 'Have anything to add?';
@@ -352,6 +359,84 @@ a.unpaged-spot:hover {color: #44505B !important;}
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+#footer-widgets .footer-box {
+	min-width: 33%;
+}
+#related-posts .span_1_of_3 {
+    min-width: 33.3333333333%;
+}
+.parallax {
+  height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+.parallax:hover {
+    opacity: 1;
+}
+
+#searchform-dropdown input {color: #0f8189 !important;}
+
+/* START: icons */
+i.icon-chalets, i.icon-camping, i.icon-camping-only, i.icon-day-trips, i.icon-website {
+		font-family: "Font Awesome 5 Free";
+	font-style: normal;
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-left: 5px;
+} 
+i.icon-facebook {
+		font-family: "Font Awesome 5 Brands";
+	font-style: normal;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-left: 5px;
+} 
+i.icon-chalets:after, i.icon-day-trips:after, i.icon-camping:after, i.icon-camping-only:after {
+	font-family: Tahoma, Geneva;
+	font-size: 1.3rem;
+	font-weight: 400;
+	margin-left: 5px;
+}
+i.icon-chalets:before {
+  content: '\f015';
+	color: #008000;
+  font-size: 1.5rem;
+} 
+i.icon-chalets:after {
+  content: '';
+}
+i.icon-camping:before, i.icon-camping-only:before {
+  content: '\f6bb';
+	color: rgb(2,136,209) !important;
+}
+i.icon-camping:after {
+  content: '(camping)';
+}
+i.icon-camping-only:after {
+  content: '(camping only)';
+}
+i.icon-day-trips:before {
+  content: '\f00d';
+	color: red !important;
+}
+i.icon-day-trips:after {
+  content: '(day trips only)';
+}
+i.icon-facebook:before {
+  content: '\f082';
+	color: #3b5998 !important;
+	  font-size: 1.8rem;
+}
+i.icon-website:before {
+  content: '\f0ac';
+	color: olive !important;
+	  font-size: 1.8rem;
+}
+/* END: icons */
 
 /*------------------------------------*
 	END: Additional styles
