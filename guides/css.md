@@ -76,19 +76,37 @@ body #footer-widgets .social-widget li a:hover { color: #8cba29; }
 /*------------------------------------*
 	Additional styles
 *------------------------------------*/
+a {
+	text-decoration: none !important;
+}
 
-h5, h6 {
+a:hover {
+	text-decoration: underline dotted darkgray !important;
+}
+
+ol, ul {margin-top: 0.1rem;}
+
+/* START: headings*/
+h2, h5, h6 {
 	color: #444 !important;
 }
 h5 {
-	margin: 20px 0px 15px 0px;	
+	margin: 20px 0px 5px 0px;	
 	font-size: 22px;
 }
 h6 {
 	margin: 20px 0px 5px 0px;	
 	font-size: 19px;
 }
+h5.gallery:after  {content: 'Gallery'; color: Teal !important;}
+h5.video:after  {content: 'Video'; color: Teal !important;}
+/* END: headings*/
 
+/* START: bootstrap overrides*/
+.row>* {
+	padding: 0px !important;
+}
+/* END: bootstrap overrides*/
 
 @media only screen and (max-width: 1300px) {
 	#access a {
@@ -319,11 +337,9 @@ h6 {
 	color: red;}
 
 /* START: spots */
-.spots {padding: 0px;}
-.spots h5 {margin-bottom: 0.1rem;}
-.spots ul {margin-top: 0.1rem;}
 .chalets-only {color: #008000 !important;}
 .chalets-only:after {content: 'Chalets \\ Houses Only';}
+.accommodation {color: #008000 !important;}
 .chalets-camping {color: #ff00ff !important;}
 .chalets-camping:after {content: 'Chalets & Camping';}
 .camping-only {color: rgb(2,136,209) !important;}
@@ -337,12 +353,14 @@ h6 {
 .day-trips-only:after {content: 'Day Trips Only';}
 .closed-spot {color: #AAA !important;}
 .closed-spot:after {content: 'Closed';}
-.dam-info:after {content: 'Additional Info'; color: DarkTurquoise !important;}
-.spots .gallery:after {content: 'Gallery'; color: Teal !important;}
-.spots .video:after {content: 'Video'; color: Teal !important; margin-bottom: 0.3rem;}
-.spots .video {margin-bottom: 0.5rem;}
+.dam-info:after {content: 'Interesting Facts'; color: DarkTurquoise !important;}
 a.unpaged-spot {color: #777 !important;}
 a.unpaged-spot:hover {color: #44505B !important;}
+div.dam-blurb-top, div.prov-blurb-top {margin-bottom: 10px;}
+div.dam-blurb-top:before {content:'Here’s a map of all the fishing spots and accommodation we’ve discovered at ';}
+div.dam-blurb-top:after {content:' including some additional info.';}
+div.prov-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered in ';}
+div.prov-blurb-top:after {content:' including some additional info.';}
 span.dam-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered at ';}
 span.dam-blurb-top:after {content:' including some additional info.';}
 span.prov-blurb-top:before {content:'Here’s a map of all the fishing spots we’ve discovered in ';}
@@ -400,7 +418,67 @@ span.prov-blurb-top:after {content:' including some additional info.';}
 }
 
 #searchform-dropdown input {color: #0f8189 !important;}
+
+/* START: icons */
+i.icon-chalets, i.icon-camping, i.icon-camping-only, i.icon-day-trips, i.icon-website {
+		font-family: "Font Awesome 5 Free";
+	font-style: normal;
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-left: 5px;
+} 
+i.icon-facebook {
+		font-family: "Font Awesome 5 Brands";
+	font-style: normal;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-left: 5px;
+} 
+i.icon-chalets:after, i.icon-day-trips:after, i.icon-camping:after, i.icon-camping-only:after {
+	font-family: Tahoma, Geneva;
+	font-size: 1.3rem;
+	font-weight: 400;
+	margin-left: 5px;
+}
+i.icon-chalets:before {
+  content: '\f015';
+	color: #008000;
+  font-size: 1.5rem;
+} 
+i.icon-chalets:after {
+  content: '';
+}
+i.icon-camping:before, i.icon-camping-only:before {
+  content: '\f6bb';
+	color: rgb(2,136,209) !important;
+}
+i.icon-camping:after {
+  content: '(camping)';
+}
+i.icon-camping-only:after {
+  content: '(camping only)';
+}
+i.icon-day-trips:before {
+  content: '\f00d';
+	color: red !important;
+}
+i.icon-day-trips:after {
+  content: '(day trips only)';
+}
+i.icon-facebook:before {
+  content: '\f082';
+	color: #3b5998 !important;
+	  font-size: 1.8rem;
+}
+i.icon-website:before {
+  content: '\f0ac';
+	color: olive !important;
+	  font-size: 1.8rem;
+}
+/* END: icons */
+
 /*------------------------------------*
 	END: Additional styles
 *------------------------------------*/
+
 ```
