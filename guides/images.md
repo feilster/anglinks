@@ -20,5 +20,16 @@
 9. gebruik dit ook vir alt en sit meer beskrywing in
    eg. Vaal river catching a big carp 
 
+### TablePress
+   Use the following to add an image to a TablePress cell with lightbox enabled:
+1. in TablePress click on Advanced editor and then the cell you want to work with
+2. click on Add media
+3. select the image you want and set Link to to Media File
+4. select 150x150 as the size, we'll change this if necessary
+5. remove [caption bits so only the anchor tag remains
+6. add rel="lightbox" to the end of the anchor tag
+7. change the size to what you want (for thumbnail to 50x50)
+8. and save
+
 
 
