@@ -7,9 +7,12 @@
 
 ### In Photoshop: 
 3. crop die foto, behou net nicer deel
-4. verander grootte na 800px van grootste dimension (width of height)
-5. enhance deur met contrast ens. te speel
-6. save as jpg met vlg file name format 
+4. gebruik dan een van die actions wat reeds record is om portrait en landscape afsonderlik te process, dit doen die volgende,
+   - verander grootte na 800px van grootste dimension (width of height)
+   - doen 'n Auto contrast
+   - en save as 'n jpg, met 11 quality,
+   - na die resize folder (anglinks\_resized images for site) met die oorspronklike naam
+7. verander dan die naam met die vlg file name format 
    <plek>-<water>-<beskrywing> 
    eg. riverhouse-vaal-river-big-carp.jpg
 
