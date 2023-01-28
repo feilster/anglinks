@@ -19,8 +19,9 @@
 ### In Wordpress
 7. in wp behoort die plugin (Auto Image Attributes ...) die dashes uit te haal van die file naam en dit gebruik as die naam, alt, caption en beskrywing 
    eg. riverhouse vaal river big carp
-8. verander dan die beskrywing om meer sin te maak
+8. vir SEO verander dan die alt text na iets wat die image beskryf
    eg. Vaal river catching a big carp 
+9. copy dit na die description ook
 
 ### TablePress
    Use the following to add an image to a TablePress cell with lightbox enabled:
