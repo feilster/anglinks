@@ -14,10 +14,9 @@
    eg. riverhouse-vaal-river-big-carp.jpg
 
 ### In Wordpress
-7. in wp haal die dashes uit bo-aan (gebruik notepad replace) 
+7. in wp behoort die plugin (Auto Image Attributes ...) die dashes uit te haal van die file naam en dit gebruik as die naam, alt, caption en beskrywing 
    eg. riverhouse vaal river big carp
-8. sit dit as naam
-9. gebruik dit ook vir alt en sit meer beskrywing in
+8. verander dan die beskrywing om meer sin te maak
    eg. Vaal river catching a big carp 
 
 ### TablePress
