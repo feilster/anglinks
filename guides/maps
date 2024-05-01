@@ -1,0 +1,47 @@
+WP Go Maps
+Styling
+
+:root {
+  --anglinks-blue: #189aab;
+}
+
+.ol-info-window-plain, .wpgmza-infowindow {
+	padding: 0px !important;
+}
+.ol-info-window-plain p {
+	padding: 2px 5px !important;
+    margin: 0px !important; 
+    font-size: 13px !important;
+}
+
+.ol-info-window-plain p .custom-field-label {
+	font-weight: bold !important;
+}
+
+.wpgmza-infowindow .wpgmza_infowindow_title, .wpgmza-infowindow 
+.wpgmza_infowindow_link {
+    background-color: var(--anglinks-blue);
+    color: white;
+    font-weight: 500 !important;
+    margin-bottom: 0px;
+}
+
+.wpgmza-infowindow .wpgmza_infowindow_title {
+    font-size: 20px !important;
+    text-align: center;
+    line-height: 1.12em !important;
+    padding: 10px 15px 10px !important;
+}
+
+.wpgmza-infowindow .wpgmza_infowindow_link {
+    font-size: 12px !important;
+    text-align: center;
+    background-color: #f9f7f7;
+    color: var(--anglinks-blue);
+    padding: 5px !important;
+}
+
+i.ol-info-window-close {
+	padding: 14px;
+    color: white;
+}
